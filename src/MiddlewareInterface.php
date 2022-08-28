@@ -9,5 +9,5 @@ use Illuminate\Http\Request;
 
 interface MiddlewareInterface
 {
-    public function handle(Request $request, Closure $next): void;
+    public function handle(Request $request, Closure $next);
 }

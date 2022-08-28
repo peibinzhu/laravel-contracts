@@ -6,5 +6,5 @@ namespace PeibinLaravel\Contracts;
 
 interface ListenerInterface
 {
-    public function handle(object $event): void;
+    public function handle(object $event);
 }

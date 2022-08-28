@@ -1,0 +1,33 @@
+{
+  "name": "peibin/laravel-contracts",
+  "description": "Peibin contracts component for Laravel.",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "Peibin Zhu",
+      "email": "zhupeibin1207@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/contracts": "^9.26",
+    "psr/log": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PeibinLaravel\\Contracts\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PeibinLaravelTest\\Contracts\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "prefer-stable": true
+}

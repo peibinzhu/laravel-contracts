@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PeibinLaravel\Contract;
+namespace PeibinLaravel\Contracts;
 
 use Psr\Log\LoggerInterface;
 
